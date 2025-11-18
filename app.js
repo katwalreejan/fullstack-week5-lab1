@@ -9,8 +9,8 @@ const userRouter = require('./routes/userRouter.js');
 app.use(express.json());
 
 // ROUTES
-app.use('/api',tourRouter)
-app.use('/users', userRouter); 
+app.use('/api/tours',tourRouter)
+app.use('/api/users', userRouter); 
 
 const port = 4000;
 // Start the server
